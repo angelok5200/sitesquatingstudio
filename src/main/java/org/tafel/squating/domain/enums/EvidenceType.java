@@ -1,0 +1,13 @@
+package org.tafel.squating.domain.enums;
+
+public enum EvidenceType {
+    DNS_A_RECORD,
+    DNS_MX_EXCHANGE,
+    DNS_NS_SERVERS,
+    SSL_CERTIFICATE_ISSUER,
+    HTTP_HTML_BODY,
+    HTTP_LOGIN_FORM,
+    REGISTRATION_WHOIS,
+    PHONETIC_COLOGNE_MATCH,
+    KEYBOARD_QWERTZ_DISTANCE
+}
